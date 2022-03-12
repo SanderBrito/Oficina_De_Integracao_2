@@ -1,2 +1,3 @@
-# Oficina_De_Integracao_2
- Trabalho prático da disciplina de Oficina de Integração 2
+<div align="center">
+<img src="https://user-images.githubusercontent.com/37093580/158032607-ddfa4184-d999-4b46-8d87-9de97dad913e.png" />
+</div>
