@@ -3,6 +3,8 @@
 </div>
 <p align="center">Agendaí e um software utilizado para realizar agendamentos 📅 em clínicas e hospitais</p>
 
+## Alunos: Leonardo Garcia | Philipe Loureiro | Sander Henrique
+
 ## Status: EM ANDAMENTO 🔨
 
 ## Tecnologias e Linguagem Utilizadas
