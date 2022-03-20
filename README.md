@@ -3,7 +3,7 @@
 </div>
 <p align="center">Agendaí e um software utilizado para realizar agendamentos 📅 em clínicas e hospitais</p>
 
-## Alunos: Leonardo Garcia | Philipe Loureiro | Sander Henrique
+## Alunos: Leonardo Garcia | João Wictor Ortiz de Campos | Philipe Loureiro | Sander Henrique Trindade Brito
 
 ## Status: EM ANDAMENTO 🔨
 
