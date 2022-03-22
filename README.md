@@ -3,13 +3,13 @@
 </div>
 <p align="center">Agendaí e um software utilizado para realizar agendamentos 📅 em clínicas e hospitais</p>
 
-## Alunos: Leonardo Garcia | João Wictor Ortiz de Campos | Philipe Loureiro | Sander Henrique Trindade Brito
+## Alunos: Leonardo Garcia | João Wicktor Ortiz de Campos | Philipe Loureiro | Sander Henrique Trindade Brito
 
 ## Status: EM ANDAMENTO 🔨
 
 ## Tecnologias e Linguagem Utilizadas
 
-* Linguagem de programação -> Java whith Maven
+* Linguagem de programação -> Java with Maven
 * SGBD -> Postgresql + pgAdmin 4
 * IDE -> Apache NetBeans 12.3
 * Testes Automatizados -> JUnit 5
