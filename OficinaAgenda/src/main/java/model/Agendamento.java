@@ -2,7 +2,7 @@ package model;
 
 /**
  *
- * @author sfcvinicius
+ * 
  */
 public class Agendamento implements java.io.Serializable{
     private static long serialVersionUID = 1L;
