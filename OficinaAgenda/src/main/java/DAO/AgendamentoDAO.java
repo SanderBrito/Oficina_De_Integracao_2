@@ -16,7 +16,7 @@ import model.Agendamento;
 
 /**
  *
- * @author sfcvi
+ *  
  */
 public class AgendamentoDAO {
 
