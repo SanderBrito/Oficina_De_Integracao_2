@@ -204,5 +204,6 @@ public class JanelaLogin extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField jTextField_login;
     private javax.swing.JPasswordField jTextField_senha;
+    
     // End of variables declaration//GEN-END:variables
 }
