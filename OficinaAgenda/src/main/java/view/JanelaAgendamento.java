@@ -375,7 +375,7 @@ public class JanelaAgendamento extends javax.swing.JFrame {
             agendamento.setEstado(jComboBox_estado.getSelectedItem().toString());
             agendamento.setPrioridade(jComboBox_prioridade.getSelectedItem().toString());
             agendamentoDAO.cadastrarAgendamento(agendamento, conexao);
-            JOptionPane.showMessageDialog(null, "cadastro realizado com sucesso");
+            JOptionPane.showMessageDialog(null, "Cadastro realizado com sucesso");
         } catch (HeadlessException e) {
             JOptionPane.showMessageDialog(null, "ERRO AO CADASTRAR:" + e);
         }
