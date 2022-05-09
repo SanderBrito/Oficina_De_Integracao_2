@@ -1,15 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
- */
+
 package view;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
+import static org.junit.Assert.*;
 
 /**
  *
@@ -17,24 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class JanelaRelatorioTest {
     
-    public JanelaRelatorioTest() {
-    }
     
-    @BeforeAll
-    public static void setUpClass() {
-    }
-    
-    @AfterAll
-    public static void tearDownClass() {
-    }
-    
-    @BeforeEach
-    public void setUp() {
-    }
-    
-    @AfterEach
-    public void tearDown() {
-    }
 
     /**
      * Test of getJanelaRelatorio method, of class JanelaRelatorio.
@@ -42,11 +18,17 @@ public class JanelaRelatorioTest {
     @Test
     public void testGetJanelaRelatorio() {
         System.out.println("getJanelaRelatorio");
-        JanelaRelatorio expResult = null;
+
+        JanelaRelatorio instance = new JanelaRelatorio();
         JanelaRelatorio result = JanelaRelatorio.getJanelaRelatorio();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
+        
+        int height = instance.getHeight();
+        int width = instance.getWidth();
+   
+     
+        assertEquals(height, 400);
+        assertEquals(width, 501);
     }
 
     /**
@@ -57,10 +39,15 @@ public class JanelaRelatorioTest {
         System.out.println("lerAgendamento");
         JanelaRelatorio instance = new JanelaRelatorio();
         instance.lerAgendamento();
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
+        
+        int height = instance.getHeight();
+        int width = instance.getWidth();
+   
+     
+        assertEquals(height, 398);
+        assertEquals(width, 489);
     }
-
     /**
      * Test of ConsultaAgendamento method, of class JanelaRelatorio.
      */
@@ -69,8 +56,14 @@ public class JanelaRelatorioTest {
         System.out.println("ConsultaAgendamento");
         JanelaRelatorio instance = new JanelaRelatorio();
         instance.ConsultaAgendamento();
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+     
+        
+        int height = instance.getHeight();
+        int width = instance.getWidth();
+   
+     
+        assertEquals(height, 398);
+        assertEquals(width, 489);
     }
 
     /**
@@ -81,8 +74,13 @@ public class JanelaRelatorioTest {
         System.out.println("ConsultaAgendamentoNome");
         JanelaRelatorio instance = new JanelaRelatorio();
         instance.ConsultaAgendamentoNome();
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+      
+        int height = instance.getHeight();
+        int width = instance.getWidth();
+   
+     
+        assertEquals(height, 398);
+        assertEquals(width, 489);
     }
 
     /**
@@ -93,8 +91,7 @@ public class JanelaRelatorioTest {
         System.out.println("main");
         String[] args = null;
         JanelaRelatorio.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -103,11 +100,18 @@ public class JanelaRelatorioTest {
     @Test
     public void testGetJanelarelatorioUnico() {
         System.out.println("getJanelarelatorioUnico");
-        JanelaRelatorio expResult = null;
+  
+        JanelaRelatorio instance = new JanelaRelatorio();
         JanelaRelatorio result = JanelaRelatorio.getJanelarelatorioUnico();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+ 
+
+        
+        int height = instance.getHeight();
+        int width = instance.getWidth();
+   
+     
+        assertEquals(height, 398);
+        assertEquals(width, 489);
     }
 
     /**
@@ -118,8 +122,7 @@ public class JanelaRelatorioTest {
         System.out.println("setJanelarelatorioUnico");
         JanelaRelatorio aJanelarelatorioUnico = null;
         JanelaRelatorio.setJanelarelatorioUnico(aJanelarelatorioUnico);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+     
     }
     
 }
