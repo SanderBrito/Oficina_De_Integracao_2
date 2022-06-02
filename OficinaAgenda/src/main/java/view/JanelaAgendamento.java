@@ -1,7 +1,7 @@
 package view;
 
-import DAO.AgendamentoDAO;
-import DAO.ModuloConexao;
+import controller.AgendamentoDAO;
+import controller.ModuloConexao;
 import java.awt.HeadlessException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -594,6 +594,5 @@ public class JanelaAgendamento extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField_horario;
     private javax.swing.JTextField jTextField_id;
     private javax.swing.JTextField jTextField_nome;
-    
     // End of variables declaration//GEN-END:variables
 }

@@ -5,8 +5,8 @@
  */
 package view;
 
-import DAO.AgendamentoDAO;
-import DAO.ModuloConexao;
+import controller.AgendamentoDAO;
+import controller.ModuloConexao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

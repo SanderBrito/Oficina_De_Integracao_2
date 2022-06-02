@@ -5,7 +5,7 @@
  */
 package view;
 
-import DAO.ModuloConexao;
+import controller.ModuloConexao;
 import java.awt.Canvas;
 import java.awt.image.BufferedImage;
 import java.sql.Connection;
@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author sfcvi
+ * 
  */
 public class JanelaLogin extends javax.swing.JFrame {
     BufferedImage imagemfundo;
@@ -204,6 +204,5 @@ public class JanelaLogin extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField jTextField_login;
     private javax.swing.JPasswordField jTextField_senha;
-    
     // End of variables declaration//GEN-END:variables
 }
