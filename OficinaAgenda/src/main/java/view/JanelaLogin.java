@@ -27,9 +27,9 @@ public class JanelaLogin extends javax.swing.JFrame {
         initComponents();
         conexao = ModuloConexao.conector();
         if (conexao != null) {
-            jLabel_status.setText("Conectado ao banco ");
+            jLabel_status.setText("Conectado ao banco!");
         } else {
-            jLabel_status.setText("Não conectado ao banco");
+            jLabel_status.setText("Não conectado ao banco!");
         }
     }
 
@@ -63,7 +63,7 @@ public class JanelaLogin extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\sfcvi\\OneDrive\\Documentos\\NetBeansProjects\\OficinaAgenda\\iconecalendario.png")); // NOI18N
 
-        jLabel_usuario.setText("Usuario: ");
+        jLabel_usuario.setText("Usuário: ");
 
         jLabel_senha.setText("Senha:");
 
@@ -156,7 +156,7 @@ public class JanelaLogin extends javax.swing.JFrame {
                 this.dispose();
                 conexao.close();
             } else {
-                JOptionPane.showMessageDialog(null, "usuario e/ou senha invalido");
+                JOptionPane.showMessageDialog(null, "usuário e/ou senha inválidos");
             }
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e);
