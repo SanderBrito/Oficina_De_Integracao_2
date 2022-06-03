@@ -377,7 +377,7 @@ public class JanelaAgendamento extends javax.swing.JFrame {
             agendamentoDAO.cadastrarAgendamento(agendamento, conexao);
             JOptionPane.showMessageDialog(null, "cadastro realizado com sucesso");
         } catch (HeadlessException e) {
-            JOptionPane.showMessageDialog(null, "ERRO AO CADASTRAR:" + e);
+            JOptionPane.showMessageDialog(null, "ERRO, CADASTRO INCORRETO!:" + e);
         }
         lerAgendamento();
         limparagendamento();
@@ -398,7 +398,7 @@ public class JanelaAgendamento extends javax.swing.JFrame {
             agendamentoDAO.alterarAgendamento(conexao, agendamentotoedit, aux);
 
         } catch (NumberFormatException n) {
-            JOptionPane.showMessageDialog(null, "ERRO AO ALTERAR:" + n);
+            JOptionPane.showMessageDialog(null, "ERRO AO EFETUAR ALTERAÇÃO!:" + n);
         }
         lerAgendamento();
         limparagendamento();
@@ -411,7 +411,7 @@ public class JanelaAgendamento extends javax.swing.JFrame {
             agendamentoDAO.excluiAgendamento(conexao, IDAgendamento);
 
         } catch (NumberFormatException n) {
-            JOptionPane.showMessageDialog(null, "ERRO AO EXCLUIR:" + n);
+            JOptionPane.showMessageDialog(null, "ERRO AO EFETUAR EXCLUSÃO!:" + n);
         }
         lerAgendamento();
         limparagendamento();
