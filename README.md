@@ -3,9 +3,13 @@
 </div>
 <p align="center">Agendaí e um software utilizado para realizar agendamentos 📅 em clínicas e hospitais</p>
 
-## Alunos: Leonardo Garcia | Philipe Loureiro | Sander Henrique Trindade Brito |
+## Alunos: Leonardo Garcia | Victor Hugo Feracin | Sander Henrique Trindade Brito | Pedro Henrique | Vinicius Ferreira
 
 ## Status: EM ANDAMENTO 🔨
+
+## Links
+
+* google.com
 
 ## Tecnologias e Linguagem Utilizadas
 
